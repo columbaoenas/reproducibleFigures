@@ -11,7 +11,7 @@
 ## ---------------------------
 ##
 ## Notes:
-##    Functions in section 1 taken from cleaning.r file by Lydia France (2023):
+##    Functions in section 1 and 3 taken from cleaning.r file by Lydia France (2023):
 ##    https://github.com/LydiaFrance/PenguinProject/blob/main/functions/cleaning.r
 ##
 ## ---------------------------
@@ -75,7 +75,7 @@ full_clean <- function(penguins_data) {
 }
 
 
-# Section 3: functions to subset data by species, taken from Lydia France
+# Section 3: functions to subset data by species
 
 # A function to subset the penguins data set based on species
 filter_by_species <- function(penguins_data, selected_species) {
